@@ -49,6 +49,6 @@ My model using CNN to classify letter from image, which use 11 layers.
 - With video:
     + It's same for video, when recognizing people's hand through webcam's video and predicting the letter, it is often wrong because of different conditions.
 
-=> This model needs the input to be the same as in training (Ex : same image size and channels). Before predicting, we must preprocess the image in the same way, which is not convenient.
-=> This dataset is too clean, with little noise, all hands is in the center of the image. This makes the model easy to memorize the data instead of learning features that generalize well.
-=> The hand is captured from limited angles.
+- This model needs the input to be the same as in training (Ex : same image size and channels). Before predicting, we must preprocess the image in the same way, which is not convenient.
+- This dataset is too clean, with little noise, all hands is in the center of the image. This makes the model easy to memorize the data instead of learning features that generalize well.
+- The hand is captured from limited angles.
