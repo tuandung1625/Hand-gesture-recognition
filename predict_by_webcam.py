@@ -5,8 +5,8 @@ import mediapipe as mp
 import pickle
 
 # Load model và class labels
-model = load_model("asl_model.keras")
-with open('asl_labels.pkl', 'rb') as f:
+model = load_model("Models/asl_model.keras")
+with open('Models/asl_labels.pkl', 'rb') as f:
     class_names = pickle.load(f)
 
 # Khởi tạo MediaPipe Hands
